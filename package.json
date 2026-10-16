@@ -1,0 +1,23 @@
+{
+  "name": "aw-docker-sandbox",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent Wrangler extension: a Docker Sandbox runtime that runs a dispatched card's Claude or Codex inside a local sbx microVM.",
+  "wranglerExtension": {
+    "id": "docker-sandbox",
+    "label": "Docker Sandbox",
+    "description": "Adds a Docker Sandbox runtime to the dispatch dialog: the card's Claude or Codex runs inside a local sbx microVM instead of on this machine.",
+    "requires": [],
+    "engines": {
+      "wranglerApi": "^1.34.0"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
